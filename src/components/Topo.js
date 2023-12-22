@@ -1,7 +1,7 @@
 
 function Topo() {
     let nomeDoUsuario = "Lucas";//prompt("Qual é seu nome?");
-    let novaFoto = prompt("Coloque o Link Da Sua Foto de perfil:");
+    let novaFoto = "https://vmxi.com.br/img/login.png";//prompt("Coloque o Link Da Sua Foto de perfil:");
     let fotoInicial = "https://vmxi.com.br/img/login.png"; 
     
     let frase 
