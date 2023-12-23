@@ -80,7 +80,7 @@ button {
 
 /* Classes - Conteudo */
 .conteudo {
-    /* display: flex; */
+     display: flex; 
     flex-wrap: wrap;
     margin: 20px;
 }
