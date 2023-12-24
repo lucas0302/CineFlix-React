@@ -13,12 +13,21 @@ function Topo() {
      }
     //Tmb pode se usar Ternario: (condicão) ? (se for true) : (se for false); serve para fazer modificações simples ou verificações true ou false "somente"
 
+     function apertabotao(){
+        alert("vou pedir o seu nome!");
+
+     }
+
+    //se a função não tiver parâmetros => é só colocar o nome dela 
+    //se a função tiver parâmetros => colocar arrow function ante
+        //EX: () => somar(6, 7)
+
     return (
 
         <div class="topo">
             <h1>CineFlix</h1>
             <div>
-                <button>Inserir  nome</button>
+                <button onClick={apertabotao}>Inserir  nome</button>
                 <p>{frase}</p>
                 <img src={novaFoto ? novaFoto : fotoInicial} />
             </div>
