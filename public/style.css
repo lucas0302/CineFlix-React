@@ -39,7 +39,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
 }
 
 .topo div img {
@@ -107,4 +107,11 @@ button {
     align-items: center;
     text-align: center;
     padding: 0 10px;
+}
+.branco{
+    background-color: whitesmoke;
+}
+.azul{
+    background-color: rgb(107, 107, 203);
+    color: #FFFFFF;
 }
