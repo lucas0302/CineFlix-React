@@ -18,15 +18,15 @@ export default function Conteudo() {
 
   return (
 
-    <ul class="conteudo">
-      {filmes.map((f) =>  <Filme nome={f.nome} imagem={f.imagem}/> )}
+    <ul className="conteudo">
+      {filmes.map((f) =>  <Filme key={f.nome} nome={f.nome} imagem={f.imagem}/> )}
     </ul>
   );
 }
 
 function Filme(props) {
   return (
-    <li class="filme">
+    <li className="filme">
       <img src={props.imagem} alt={props.nome} />
       <p>{props.nome}</p>
     </li>

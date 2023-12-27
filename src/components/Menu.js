@@ -9,8 +9,8 @@ export default function Menu() {
     ]
 
     return (
-        <ul class="menu">
-            {menu.map((m) => <MenuItem texto={m.texto} link={m.link} imagem={m.imagem} />)}
+        <ul className="menu">
+            {menu.map((m) => <MenuItem key={m.texto} texto={m.texto} link={m.link} imagem={m.imagem} />)}
         </ul>
     )
 }

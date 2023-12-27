@@ -7,7 +7,7 @@ export default function App() {
 
             <Topo />
 
-            <div class="row">
+            <div className="row">
                 <Menu />
                 <Conteudo />
                 {/*Pode ser assim <Conteudo></Conteudo> ou assim <Conteudo/> as tegs */}

@@ -37,10 +37,10 @@ function Topo() {
 
     return (
 
-        <div class="topo">
+        <div className="topo">
             <h1>CineFlix</h1>
             <div>       
-            <button  onClick={trocaCor} class={cor}>Trocar Cor</button>
+            <button  onClick={trocaCor} className={cor}>Trocar Cor</button>
                 <button onClick={apertabotao}>Inserir  nome</button>
                 <p>{frase}</p>
                 <img onClick={trocaFoto} src={foto} />
